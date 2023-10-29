@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        // Let PlY PAGE CODE
+
+
+    const isLoggedIn = sessionStorage.getItem('loggedIn');
+        if (!isLoggedIn) {
+            // Redirect to the login page if not logged in
+            window.location.href = './login.html';
+        }
+
+    
+    </script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Borel&family=Noto+Sans+Mono:wght@700&family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,400;1,600;1,700&family=Rowdies&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+            outline: 0;
+            box-sizing: border-box;
+
+        }
+        .wrapper{
+            height: 100vh;
+            width: 100vw;
+            background: rgb(143, 55, 225);
+            display: flex;
+
+        }
+
+        .card{
+            height: 40%;
+            width: 40%;
+            background: #fff;
+            margin: 100px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+            
+        }
+
+        .card img{
+            margin: 20px 0 0 190px;
+        }
+
+        .card h2{
+            font-size: 22px;
+            font-family: 'Rowdies' ;
+            margin: 0px 0 0 350px;
+            color: goldenrod;
+        }
+
+        .card h3{
+            font-size: 32px;
+            margin-left: 180px;
+            margin-top: 10px;
+        }
+
+        .card button{
+            padding: 20px 80px;
+            position: relative;
+            margin: 50px 0 20px 230px;
+            border-radius: 22px;
+            background: rgba(238, 53, 53, 0.88);
+            color: #fff;
+            font-size: 32px;
+            border: 0;
+            outline: 0;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3) inset;
+            cursor: pointer;
+        }
+
+        .card button:hover{
+            border: 2px solid gold;
+            background: #fff;
+            color: black;
+        }
+
+        .watermark{
+            position: absolute;
+            bottom: 20px;
+            left: 47%;
+
+        }
+
+        .watermark p{
+            color: gold;
+        }
+
+        .watermark span{
+            color: #fff;
+        }
+    </style>
+
+    <div class="wrapper">
+            <div class="card">
+                <img src="./assets/logoaps.png" alt="" srcset="">
+
+                <h2>Present</h2>
+
+                <h3>KAUN BANEGA CROREPATI</h3>
+
+                <button id="btn">LET'S PLAY</button>
+            </div>
+
+            <div class="watermark">
+                <p>Developed By : <span>Anurag</span></p>
+            </div>
+    </div>
+
+   
+    <script>
+        // Let PlY PAGE CODE
+
+    let go = document.getElementById('btn')
+
+   
+    function redirecturl() {
+    window.location.href = './index.html';
+    }
+
+    go.addEventListener('click', redirecturl);
+    </script>
+
+
+</body>
+</html>

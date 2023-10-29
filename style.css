@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Noto+Sans+Mono:wght@700&family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,600;0,700;1,400;1,600;1,700&family=Rowdies&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: url(/assets/enhanced-1105-1646981483-5.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.wrapper{
+height: 100vh;
+width: 100vw;
+background: radial-gradient(#9F23D0  , #670DA6 , #371456) ;
+
+/* (#9F23D0 , #670DA6 , #371456); */
+
+}
+
+.lifeline{
+    width: 60%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+
+.cross-overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 1px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: #ff0000;
+    cursor: pointer;
+    z-index: 5;
+}
+
+.a{
+    position: absolute;
+    left: -125px;
+}
+
+.cross-overlay::before,
+.cross-overlay::after {
+    content: 'X'; /* Red cross symbol */
+}
+
+/* .lifeline > div:hover .cross-overlay {
+    display: flex;
+} */
+
+
+.fiflyfifly{
+    height: 60px ;
+    width: 80px;
+    border-radius: 22px;
+    border: 2px solid gold;
+    text-align: center;
+    padding-top: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.fiflyfifly span{
+    font-size: 26px;
+    color: gold;
+
+}
+.audiancepoll{
+    height: 60px ;
+    width: 80px;
+    border-radius: 22px;
+    border: 2px solid gold;
+    padding-top: 12px;
+    padding-left: 15px;
+    font-size: 36px;
+    color: gold;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+.phonofriend{
+    height: 60px ;
+    width: 80px;
+    border-radius: 22px;
+    border: 2px solid gold;
+    padding-top: 12px;
+    padding-left: 15px;
+    font-size: 36px;
+    color: gold;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+.ourguest{
+    height: 60px ;
+    width: 80px;
+    border-radius: 22px;
+    border: 2px solid gold;
+    padding-top: 12px;
+    padding-left: 15px;
+    font-size: 36px;
+    color: gold;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+
+.logosection{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+    
+    
+}
+
+.logosection img{
+
+
+    
+}
+
+
+.countersemi{
+    position: absolute; 
+    top: 58.999%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    height: 100px; 
+    width: 200px; 
+    border-radius: 150px 150px 0 0; 
+    background-color: rgb(146, 51, 228); 
+    border: 10px solid silver;
+    border-bottom: 0;
+    box-shadow: rgba(0, 0, 0, 0.5);
+    
+    
+}
+
+.countersemi span{
+    font-family: 'Rowdies', sans-serif;
+    font-size: 52px;
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    color: gold;
+    stroke: 5px black;
+    box-shadow: black
+}
+
+
+/* <!-- Dot Design --> */
+
+.dotgroup{
+    width: 23%;
+    height: 18px;
+    position: absolute;
+    top: 62%;
+    left: 20%;
+    display: flex;
+}
+
+.dot{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    margin-left: 3px;
+    /* filter: blur(0.2px); */
+    
+}
+
+.dotgroup1{
+    width: 23%;
+    height: 18px;
+    position: absolute;
+    top: 62%;
+    left: 57%;
+    display: flex;
+    margin-left: 3px;
+
+}
+
+/* !-- Dot Design End --> */
+
+
+/* Question Section */
+
+.mainquestionsection{
+    margin-top: 100px;
+}
+
+
+.questionfiled{
+    width: 70%;
+    height: 60px;
+    border: 4px solid gold;
+    margin-left: 290px;
+    margin-top: 50px;
+    border-radius: 50px
+}
+
+.questionfiled span{
+    font-size: 32px;
+    color: #eddf12;
+     margin-left: 25%;
+     font-weight: 700;
+}
+
+.opetion1{
+    width: 35%;
+    height: 50px;
+    border: 4px solid gold;
+    border-radius: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+
+.answer{
+    font-size: 22px;
+    color: yellow;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.opetion2 span{
+    font-size: 22px;
+    color: yellow;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.opetion3 span{
+    font-size: 22px;
+    color: yellow;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.opetion4 span{
+    font-size: 22px;
+    color: yellow;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.opetion2{
+    width: 35%;
+    height: 50px;
+    border: 4px solid gold;
+    border-radius: 50px;
+    cursor: pointer;
+    
+}
+.opetion3{
+    width: 35%;
+    height: 50px;
+    border: 4px solid gold;
+    border-radius: 50px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.opetion4{
+    width: 35%;
+    height: 50px;
+    border: 4px solid gold;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.firstopengroup{
+    display: flex;
+    margin-bottom: 10px;
+   
+}
+
+.secondoptiongroup{
+    display: flex;
+   
+
+}
+
+.allgroupQues{
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.correct-answer {
+    background-color: green;
+}
+.wrong-answer {
+    background-color: red;
+}
+
+
+
+/* Invisiable Button */
+
+#nextButton{
+    padding: 100px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+
+
+
+/* Responsive */
+
+@media screen and (min-width: 1600px) {
+    /* Your CSS styles for larger screens go here */
+    .mainquestionsection{
+         margin-top: 100px;/* use margin top 173px */
+    }
+}
